@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>作品詳情 | 電子商務平台重構</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <nav class="p-6">
+        <div class="max-w-4xl mx-auto">
+            <a href="index.html" class="text-gray-500 hover:text-blue-600 transition inline-flex items-center">
+                <i class="fas fa-chevron-left mr-2"></i> 返回主頁
+            </a>
+        </div>
+    </nav>
+
+    <main class="max-w-4xl mx-auto px-6 py-10">
+        <h1 class="text-4xl font-extrabold mb-4">電子商務平台重構</h1>
+        <div class="flex gap-2 mb-8">
+            <span class="px-3 py-1 bg-blue-100 text-blue-600 rounded text-sm font-medium">Next.js</span>
+            <span class="px-3 py-1 bg-green-100 text-green-600 rounded text-sm font-medium">Full Stack</span>
+        </div>
+
+        <div class="w-full h-[400px] bg-gray-200 rounded-2xl mb-12 overflow-hidden shadow-lg">
+            <img src="https://via.placeholder.com/800x400" alt="Cover" class="w-full h-full object-cover">
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div class="md:col-span-2 space-y-6">
+                <section>
+                    <h2 class="text-2xl font-bold mb-3">項目背景</h2>
+                    <p class="text-gray-600 leading-relaxed">
+                        原有的平台在高峰期載入過慢，導致轉化率下降。我受命重新設計前端架構，並優化後端 API 的響應時間。
+                    </p>
+                </section>
+                <section>
+                    <h2 class="text-2xl font-bold mb-3">我的角色與解決方案</h2>
+                    <ul class="list-disc list-inside text-gray-600 space-y-2">
+                        <li>使用 Server-side Rendering (SSR) 減少首屏渲染時間。</li>
+                        <li>實作圖片懶加載與 WebP 格式轉換。</li>
+                        <li>串接 Redis 快取，降低資料庫壓力。</li>
+                    </ul>
+                </section>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 h-fit">
+                <h3 class="font-bold mb-4 border-b pb-2">項目資訊</h3>
+                <div class="space-y-4 text-sm">
+                    <div>
+                        <p class="text-gray-400">日期</p>
+                        <p class="font-medium">2026年 1月</p>
+                    </div>
+                    <div>
+                        <p class="text-gray-400">客戶 / 所屬公司</p>
+                        <p class="font-medium">ABC Global</p>
+                    </div>
+                    <div>
+                        <p class="text-gray-400">連結</p>
+                        <a href="#" class="text-blue-600 hover:underline font-medium">訪問現場網站 <i
+                                class="fas fa-external-link-alt text-xs"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="py-12 border-t mt-20 text-center text-gray-400 text-sm">
+        © 2026 Your Name. All rights reserved.
+    </footer>
+
+</body>
+
+</html>
